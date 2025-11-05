@@ -1,1 +1,3 @@
 /.lake/\n/lake-packages/\n/build/\n*.olean\n*.log\n.DS_Store\n.vscode/\n.idea/
+/.lake/
+lakefile.toml
