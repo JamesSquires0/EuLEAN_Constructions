@@ -1,0 +1,15 @@
+name = "my_project"
+version = "0.1.0"
+defaultTargets = ["my_project"]
+
+[[lean_lib]]
+name = "MyProject"
+
+[[lean_exe]]
+name = "my_project"
+root = "Main"
+
+[[dependencies]]
+name = "mathlib"
+git = "https://github.com/leanprover-community/mathlib4"
+rev = "master"
